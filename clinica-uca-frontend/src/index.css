@@ -15,3 +15,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+}
+
+.btn-primary {
+  background-color: #112A56;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #173A76;
+}
+
+.btn-outline-primary {
+  border: solid 2px #112A56;
+  color: #112A56;
+}

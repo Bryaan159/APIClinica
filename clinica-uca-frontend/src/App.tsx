@@ -1,5 +1,9 @@
-export const App = () => {
+import { AppRouter } from "router/AppRouter"
+
+const App = () => {
     return (
-        <div>Clínica UCA</div>
+        <AppRouter />
     )
 }
+
+export default App;
