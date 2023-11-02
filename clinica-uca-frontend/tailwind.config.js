@@ -15,7 +15,11 @@ module.exports = {
       'black': '#000',
       transparent: 'transparent',
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'login-wallpaper': "url('/src/assets/img/login-wallpaper.jpg')",
+      }
+    },
   },
   plugins: [],
 }
